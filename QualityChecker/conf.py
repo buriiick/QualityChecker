@@ -7,7 +7,7 @@ connection = {
     "password": ""
 }
 # TEST
-"""connection: {
+"""connection = {
     "host": "",
     "port": "5433",
     "database": "",
@@ -15,7 +15,7 @@ connection = {
     "password": ""
 }
 # PROD
-connection: {
+connection = {
     "host": "",
     "port": "5433",
     "database": "",
