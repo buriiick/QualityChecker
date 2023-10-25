@@ -45,7 +45,8 @@ checks = [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 9]
 
 
 # -------------------------------------------------------------
-path = os.path.join(os.path.abspath(os.path.dirname(__file__)))
+# path = os.path.join(os.path.abspath(os.path.dirname(__file__)))
+path = os.path.dirname(os.path.abspath(__file__))
 sql_query = read_file_content(f'{path}/get_tables_sql_query.sql')
 
 obj_list = vertica_sql(

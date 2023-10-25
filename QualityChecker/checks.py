@@ -4,7 +4,7 @@ import os
 from utils.databaseTools import vertica_sql
 from utils.utils import read_file_content, to_flat_list
 
-path = os.path.join(os.path.abspath(os.path.dirname(__file__)))
+path = os.path.dirname(os.path.abspath(__file__))
 
 
 def check_null_fields(schema, table, column, vertica_conn_dict):
