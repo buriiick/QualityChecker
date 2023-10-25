@@ -12,10 +12,12 @@
 10. Количество строк в STG
 11. Количество строк в ODS
 
-Устанвока библиотек
-1. pip install vertica-python, pandas, openpyxl(на кспд можно попробовать установить через командную строку, запустив от имени администратора)
+Подготовка к работе
+1. pip install vertica-python, pandas, openpyxl(на кспд можно попробовать установить через anaconda powershell, запустив от имени администратора)
 2. Перенести и распаковать архив в удобное месте.
-3. Открыть anaconda powershell.
-4. Перейти в папку с файлом QualityChecker\QualityCheker\main.py.
-5. Запустить команду. (python .\main.py)
-6. В папке report смотреть отчеты.
+3. В файле conf.py оставляем один connection вводим свои данные и среды.
+4. В файле get_tables_sql_query.sql указываем запрос, который достает из меты названия схем и таблиц.
+5. Открыть anaconda powershell.
+6. Перейти в папку с файлом QualityChecker\QualityCheker\main.py.
+7. Запустить команду. (python .\main.py)
+8. В папке report смотреть отчеты.
