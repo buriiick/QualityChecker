@@ -19,6 +19,7 @@ vertica_conn_dict = {
         "database": "",
         "user": "",
         "password": ""
+
     }
 
 }
