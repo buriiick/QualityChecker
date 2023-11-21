@@ -2,9 +2,12 @@
 select a.table_schema,a.table_name
 from tables a
 where a.table_schema ilike 'ODS_GRP%'
-and a.table_name in ('GOODS', 'CITIES')
+-- and a.table_name in ('GOODS', 'CITIES')
+--and a.table_name in ('GOODS')
 order by
 a.table_schema desc,a.table_name;
+
+
 
 --сложный
 /*select a.table_schema,a.table_name
