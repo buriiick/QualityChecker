@@ -23,3 +23,28 @@ vertica_conn_dict = {
     }
 
 }
+
+greenplum_conn_dict = {
+        "DEV": {
+        "host": "",
+        "port": "5432",
+        "database": "",
+        "user": "",
+        "password": ""
+    },
+    "TEST":{
+        "host": "",
+        "port": "5432",
+        "database": "",
+        "user": "",
+        "password": ""
+    },
+    "PROD": {
+        "host": "",
+        "port": "5432",
+        "database": "",
+        "user": "",
+        "password": ""
+
+    }
+}

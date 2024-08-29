@@ -1,0 +1,1 @@
+select analyze_statistics('{schema}.{table}')

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qualitychecker"
+version = "0.1.0"
+description = ""
+authors = ["Nikita Nakleskin <nakleskin.nv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+vertica-python = "^1.4.0"
+pandas = "^2.2.2"
+openpyxl = "^3.1.5"
+psycopg2-binary = "^2.9.9"
+pytest = "^8.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

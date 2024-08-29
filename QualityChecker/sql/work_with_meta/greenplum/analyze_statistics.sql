@@ -1,0 +1,1 @@
+ANALYZE {schema}.{table};
